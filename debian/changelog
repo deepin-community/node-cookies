@@ -1,0 +1,55 @@
+node-cookies (0.8.0-2) unstable; urgency=medium
+
+  * Require node-supertest ≥ 4.0.2 (fixes debci)
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 21 Dec 2019 12:03:39 +0100
+
+node-cookies (0.8.0-1) unstable; urgency=medium
+
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Replace Andrew Kelley by myself in uploaders list. Thanks for your work!
+    (Closes: #909895)
+  * New upstream version 0.8.0
+  * Update copyright
+  * Add dependency to node-depd and build dependency to mocha and
+    node-supertest
+  * Enable upstream test
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 13 Nov 2019 22:23:09 +0100
+
+node-cookies (0.5.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:42:38 +0200
+
+node-cookies (0.5.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Switch to autopkgtest-pkg-nodejs (Closes: #894933)
+  * Update Vcs-* fields for move to salsa
+  * Switch to Section: javascript, Priority: optional
+  * Use secure copyright format URI
+  * Bump Standards-Version to 4.3.0, no further changes
+
+ -- Graham Inggs <ginggs@debian.org>  Fri, 24 May 2019 14:23:23 +0000
+
+node-cookies (0.5.0-1) unstable; urgency=low
+
+  * Update to upstream 0.5.0
+  * Simpler autopkgtest
+  * Remove commented out junk in rules file
+
+ -- Andrew Kelley <superjoe30@gmail.com>  Fri, 12 Sep 2014 17:59:56 +0200
+
+node-cookies (0.4.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #753284)
+
+ -- Andrew Kelley <superjoe30@gmail.com>  Tue, 22 Jul 2014 02:33:21 +0200

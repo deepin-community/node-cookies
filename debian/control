@@ -1,0 +1,32 @@
+Source: node-cookies
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 12)
+ , node-depd <!nocheck>
+ , node-keygrip <!nocheck>
+ , node-supertest (>= 4.0.2) <!nocheck>
+ , mocha <!nocheck>
+ , pkg-js-tools (>= 0.8.6)
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-cookies
+Vcs-Git: https://salsa.debian.org/js-team/node-cookies.git
+Homepage: https://github.com/expressjs/cookies
+Rules-Requires-Root: no
+
+Package: node-cookies
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+ , node-depd
+ , node-keygrip
+Description: Cookies, optionally signed using Keygrip - Node.js module
+ Cookies is a Node.js module for getting and setting HTTP(S) cookies. Cookies
+ can be signed to prevent tampering, using Keygrip. It can be used with the
+ built-in node.js HTTP library, or as Connect/Express middleware.
+ .
+ Node.js is an event-based server-side JavaScript engine.
